@@ -24,7 +24,7 @@ a{
 
 	opacity: 0.9;
 }
-
+ 
 a:hover{
 	opacity: 1;
 }
@@ -84,6 +84,8 @@ section p{
 	margin-bottom: 35px;
 	padding: 0 20px;
 	line-height: 2;
+	background-color: rgba(0, 0, 0, 0.274);
+	border: 5px solid black;
 }
 
 ul.grid{
@@ -109,6 +111,7 @@ header{
 	align-items: center;
 	color: #fff;
 	padding: 35px 100px 0;
+	background-color: rgba(0, 0, 0, 0.233);
 }
 
 header h2{
@@ -186,14 +189,22 @@ header nav li:last-child{
 	opacity: 0.5;
 }
 
-.hero h1{
+.hero h1{ 
 	font: bold 60px 'Open Sans', sans-serif;
 	margin-bottom: 15px;
+	background-color: rgba(0, 0, 0, 0.233);
+	padding: 20px;
+	
+
+	
+	
 }
 
 .hero h3{
 	font: normal 28px 'Open Sans', sans-serif;
 	margin-bottom: 40px;
+	
+	
 }
 
 .hero a.btn{
@@ -217,6 +228,10 @@ header nav li:last-child{
 	.hero a.btn{
 		padding: 15px 40px;
 	}
+article {
+	position: absolute;
+	background-color: black;
+}
 
 }
 /*-------------
@@ -272,56 +287,7 @@ footer p a{
 
 /*--CONTACT FORM--*/
 
+.container {} 
   
   
-  
-  .container {
-	display: flex;	
-	align-items: flex-start;
-	
-	
-	
-	
-  }
-  
- 
-  
-  #contact {
-	background: #F9F9F9;
-	padding: 25px;
-	margin: 150px 0;
-	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-  }
-  
-  #contact h3 {
-	display: block;
-	font-size: 30px;
-	font-weight: 300;
-	margin-bottom: 10px;
-	color: black;
-  }
-  
-  #contact h4 {
-	margin: 5px 0 15px;
-	display: block;
-	font-size: 13px;
-	font-weight: 400;
-	color: black;
-  }
-  
-  fieldset {
-	border: medium none !important;
-	margin: 0 0 10px;
-	min-width: 100%;
-	padding: 0;
-	width: 100%;
-  }
-  
-
-  
-  #contact textarea {
-	height: 100px;
-	max-width: 100%;
-	resize: none;
-  }
   
