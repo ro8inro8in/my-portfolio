@@ -240,6 +240,14 @@ article {
 	position: absolute;
 	background-color: black;
 }
+.page1{
+	max-width: 100%;
+
+}
+.page2{
+	max-width: 50%;
+	padding-bottom: 100px;
+}
 
 }
 /*-------------
@@ -334,24 +342,34 @@ h4 {
 	font-size: 14px;
 }
 *//*-------------------------------------*/
+h4 {
+	text-align: center;
+	margin: 0px 0px 20px;
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+	
+}
 button{
 	cursor: pointer;
 	padding: 1px 20px;
+	margin-left: .5em;
 }
 form {
-	/* Center the form on the page */
+
 	margin: 0 auto;
-	width: 400px;
-	/* Form outline */
+	width: 100%;
 	padding: 1em;
 	border: 1px solid #CCC;
 	border-radius: 1em;
+	background-color: white;
   }
   
   ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	color: black;
   }
   
   form li + li {
@@ -359,47 +377,35 @@ form {
   }
   
   label {
-	/* Uniform size & alignment */
-	display: inline-block;
-	width: 90px;
+	
+	display: flex;
+	
+	width: 100%;
 	text-align: right;
   }
   
   input, 
   textarea {
-	/* To make sure that all text fields have the same font settings
-	   By default, textareas have a monospace font */
 	font: 1em sans-serif;
-  
-	/* Uniform text field size */
 	width: 300px;
 	box-sizing: border-box;
-  
-	/* Match form field borders */
 	border: 1px solid #999;
   }
   
   input:focus, 
   textarea:focus {
-	/* Additional highlight for focused elements */
 	border-color: #000;
   }
   
   textarea {
-	/* Align multiline text fields with their labels */
 	vertical-align: top;
-  
-	/* Provide space to type some text */
 	height: 5em;
   }
   
-  .button {
-	/* Align buttons with the text fields */
-	padding-left: 90px; /* same size as the label elements */
+  .buttons {
+	padding-top: 10px;
   }
   
-  button {
-	/* This extra margin represent roughly the same space as the space
-	   between the labels and their text fields */
-	margin-left: .5em;
-  }
+.formsection {
+	width:100%;
+}	
