@@ -15,6 +15,7 @@ html{
 
 ul, nav{
 	list-style: none;
+	
 }
 
 a{
@@ -67,8 +68,11 @@ section{
 
 	section{
 		padding: 80px 30px;
+		
 	}
-
+	
+		
+	
 }
 
 section h3.title{
@@ -126,6 +130,7 @@ header h2{
 
 header nav{
 	display: flex;
+	
 }
 
 header nav li{
@@ -225,9 +230,9 @@ img{
 
 @media (max-width: 800px){
 
-	.hero{
+	/*.hero{
 		min-height: 600px;
-	}
+	}*/
 
 	.hero h1{
 		font-size: 48px;
@@ -387,7 +392,8 @@ form {
 
 /*----CARDS-----*/
 h1{
-	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+	
+	
 }
 .cardscont {
     display: grid;
