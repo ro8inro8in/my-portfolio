@@ -214,6 +214,11 @@ header nav li:last-child{
 	
 	
 }
+img{
+	width: 800px;
+    height: auto;
+
+}
 
 .hero a.btn{
 	padding: 20px 46px;
@@ -240,13 +245,12 @@ article {
 	position: absolute;
 	background-color: black;
 }
-.page1{
+img{
 	max-width: 100%;
 
 }
 .page2{
-	max-width: 50%;
-	padding-bottom: 100px;
+	max-width: 100%;
 }
 
 }
