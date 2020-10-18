@@ -7,7 +7,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+.background-image{
+	background-position: top center;
+}
 html{
 	font: normal 16px sans-serif;
 	color: #555;
@@ -70,9 +72,7 @@ section{
 		padding: 80px 30px;
 		
 	}
-	
-		
-	
+
 }
 
 section h3.title{
@@ -102,6 +102,7 @@ ul.grid{
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
 
 
 /*-------------
@@ -152,7 +153,10 @@ header nav li:last-child{
 	header{
 		padding: 20px 50px;
 	}
+
 }
+
+
 
 
 @media (max-width: 700px){
@@ -164,6 +168,7 @@ header nav li:last-child{
 		margin-bottom: 50px;
 		
 	}
+	
 }
 
 
@@ -229,6 +234,7 @@ img{
 }
 
 @media (max-width: 800px){
+
 
 	/*.hero{
 		min-height: 600px;
@@ -302,6 +308,7 @@ footer p a{
 }
 
 @media (max-width: 700px){
+
 
 	footer{
 		padding: 80px 15px;
@@ -385,8 +392,9 @@ form {
   textarea {
 	
 	width: 100%;
-	
   }
+  
+}
 }
 
 
@@ -443,6 +451,7 @@ h1{
 		
 		width: 100%;		
 	}
+	
 	
 }
 
